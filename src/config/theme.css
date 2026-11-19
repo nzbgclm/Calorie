@@ -1,0 +1,49 @@
+/* ============================================================
+   主题配置 —— 想换配色，只改这个文件
+
+   1. --brand 主色：环形进度、按钮、关键数字
+   2. --brand-weak 主色浅底：选中项背景、圆形按钮底
+   3. --td-brand-color-* 是 TDesign 组件库的品牌色阶（按钮、开关、
+      滑块等）。TDesign 只认这套变量，所以必须和 --brand 一起改。
+      -7 是主色，-1~-4 是浅色底，-5/-6 是 hover，-8~-10 是深色文字。
+   4. 底部 tab 图标是静态 svg，用的是中性灰/深灰，不受主色影响。
+   ============================================================ */
+
+:root,
+page {
+  /* ---- 主色 ---- */
+  --brand: #ff7a45;
+  --brand-weak: #fff2ec;
+  --ok: #2ba471;
+  --warn: #e34d59;
+
+  /* ---- TDesign 品牌色阶（跟着 --brand 一起改） ---- */
+  --td-brand-color: #ff7a45;
+  --td-brand-color-1: #fff3ed;
+  --td-brand-color-2: #ffdccc;
+  --td-brand-color-3: #ffc2a6;
+  --td-brand-color-4: #ffa177;
+  --td-brand-color-5: #ff8b57;
+  --td-brand-color-6: #f5743c;
+  --td-brand-color-7: #ff7a45;
+  --td-brand-color-8: #d9501b;
+  --td-brand-color-9: #a83a10;
+  --td-brand-color-10: #702405;
+}
+
+/* 深色模式下主色略提亮，避免在深底上发闷 */
+@media (prefers-color-scheme: dark) {
+  :root,
+  page {
+    --brand: #ff8a5c;
+    --brand-weak: #2a1d16;
+    --ok: #3fbf8a;
+    --warn: #ef6b76;
+
+    --td-brand-color: #ff8a5c;
+    --td-brand-color-5: #ffa177;
+    --td-brand-color-6: #ff7a45;
+    --td-brand-color-7: #ff8a5c;
+    --td-brand-color-8: #f2632b;
+  }
+}

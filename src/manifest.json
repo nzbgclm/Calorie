@@ -1,0 +1,47 @@
+{
+  "name": "卡路里",
+  "appid": "",
+  "description": "每日热量记录",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "splashscreen": {
+      "alwaysShowBeforeRender": true,
+      "waiting": true,
+      "autoclose": true,
+      "delay": 0
+    },
+    "modules": {
+      "Push": {}
+    },
+    "distribute": {
+      "android": {
+        "permissions": []
+      },
+      "ios": {
+        "dSYMs": false
+      },
+      "sdkConfigs": {}
+    }
+  },
+  "quickapp": {},
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false
+    },
+    "usingComponents": true
+  },
+  "h5": {
+    "title": "卡路里",
+    "router": {
+      "mode": "hash",
+      "base": "./"
+    }
+  },
+  "vueVersion": "3"
+}

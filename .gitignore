@@ -1,0 +1,35 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+unpackage/
+unpackage/
+.hbuilderx/
+
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 环境变量（含密钥，切勿提交）
+.env
+.env.local
+.env.*.local
+
+# 本地密钥与证书
+*.p12
+*.mobileprovision
+*.keystore
+*.jks
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*~

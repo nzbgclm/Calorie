@@ -1,0 +1,132 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^t-(.*)": "@tdesign/uniapp/$1/$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "卡路里"
+      }
+    },
+    {
+      "path": "pages/history/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "历史"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/mine/ai",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "AI 设置"
+      }
+    },
+    {
+      "path": "pages/mine/reminder",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "每日提醒"
+      }
+    },
+    {
+      "path": "pages/mine/goal",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "目标设置"
+      }
+    },
+    {
+      "path": "pages/mine/about",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "关于"
+      }
+    },
+    {
+      "path": "pages/food/search",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "添加食物"
+      }
+    },
+    {
+      "path": "pages/food/edit",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "记录食物"
+      }
+    },
+    {
+      "path": "pages/ai/parse",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "一句话记录"
+      }
+    },
+    {
+      "path": "pages/weight/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "体重记录"
+      }
+    },
+    {
+      "path": "pages/onboarding/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "完善资料"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "卡路里",
+    "navigationBarBackgroundColor": "#F5F5F7",
+    "backgroundColor": "#F5F5F7",
+    "backgroundColorTop": "#F5F5F7",
+    "backgroundColorBottom": "#F5F5F7"
+  },
+  "tabBar": {
+    "color": "#A1A1A6",
+    "selectedColor": "#FF7A45",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "fontSize": "10px",
+    "iconWidth": "22px",
+    "spacing": "4px",
+    "height": "52px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "今日",
+        "iconPath": "static/tabbar/today.svg",
+        "selectedIconPath": "static/tabbar/today-active.svg"
+      },
+      {
+        "pagePath": "pages/history/index",
+        "text": "历史",
+        "iconPath": "static/tabbar/history.svg",
+        "selectedIconPath": "static/tabbar/history-active.svg"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/mine.svg",
+        "selectedIconPath": "static/tabbar/mine-active.svg"
+      }
+    ]
+  }
+}

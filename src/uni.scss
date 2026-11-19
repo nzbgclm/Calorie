@@ -1,0 +1,26 @@
+/* uni-app 全局 scss 变量，页面内可直接使用，无需 import */
+
+$uni-color-primary: #ff7a45;
+$uni-color-success: #2ba471;
+$uni-color-warning: #e37318;
+$uni-color-error: #e34d59;
+
+$uni-text-color: #16181c;
+$uni-text-color-inverse: #ffffff;
+$uni-text-color-grey: #6b7280;
+$uni-text-color-placeholder: #9ca3af;
+
+$uni-bg-color: #f4f5f7;
+$uni-bg-color-grey: #f4f5f7;
+$uni-bg-color-hover: #f1f1f1;
+$uni-bg-color-mask: rgba(0, 0, 0, 0.4);
+
+$uni-border-color: #eff0f2;
+
+$uni-font-size-sm: 12px;
+$uni-font-size-base: 14px;
+$uni-font-size-lg: 16px;
+
+$uni-spacing-row-sm: 8px;
+$uni-spacing-row-base: 12px;
+$uni-spacing-row-lg: 16px;
